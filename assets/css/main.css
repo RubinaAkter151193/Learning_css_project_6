@@ -1,0 +1,85 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+.header{
+    background-color: rgb(29, 98, 98);
+    color: white;
+   /* padding-top: 20px; */
+   
+}
+.menu{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.nav-section{
+    display: flex;
+    list-style: none;
+    padding-left: 0px;
+}
+.menu-link{
+    color: white;
+    text-decoration: none;
+    padding: 2px 8px;
+}
+.main-body{
+    /* background-color: rgb(255, 0, 0);
+} */
+}
+.button{
+    background-color: rgb(245, 77, 30);
+    border-radius: 3px;
+    border: none;
+    padding: 12px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px; 
+    margin: 4px 2px;
+    cursor: pointer;
+}
+.content{
+    background-color: rgb(84, 79, 79);
+    border-radius: 2px;
+    color: white;
+    padding: 16px 16px 16px 16px;
+   
+}
+.divone{
+    background-image: url(../img/Image2.jpg);
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.threeinone{
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+.maindivthree{
+    background-color: rgb(242, 238, 233);
+}
+.divtwo{
+   color: blue; 
+}
+.divthree{
+    color: green;
+   margin-top: 15px;
+    margin-bottom: 15px;
+}
+.divfour{
+    color: red;
+  
+}
+
+
+.footer{
+    background-color: rgb(29, 98, 98);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
